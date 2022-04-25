@@ -1,0 +1,73 @@
+Catatan CSS
+
+selector { property: value; }
+
+h1 { color: blue; }
+
+link property and value 
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+http://css-tricks.com/almanac
+
+FONT STYLING
+font-family = mengatur jenis font yang akan digunakan
+font-size = mengatur ukuran font
+font-weight = mengatur ketebalan font
+font-variant = mengubah font menjadi small caps
+font-style = mengubah font menjadi bercetak miring
+line-height = mengatur spasi antar baris
+
+font-size (px, %, em)
+font-weight (lighter, normal, 100-900, bold, bolder)
+font-variang (normal, small-caps)
+font-style (normal, italic, oblique)
+
+font: style variant weight size height family;
+
+TEXT STYLING
+color = memberi warna pada tulisan
+text-align = mengatur format paragraf/text
+text-indent = memberi indentasi pada paragraf/text
+text-decoration = mengatur dekorasi pada text
+text-transform = mengubah jenis huruf menjadi huruf besar, kecil/kapital
+letter-spacing = mengatur spasi antar huruf
+word-spacing = mengatur spasi antara kata
+
+color (nama warna, hexadecimal, rgb code)
+font-align (left, right, center, justify)
+text-decoration (none, underline, overline, line-through)
+text-transform (none, lowercase, uppercase, capitalize)
+text-indent letter-spacing word-spacing (px)
+
+BACKGROUND STYLING
+background-color = mengatur warna pada background
+backgorund-image = mengatur gambar yang akan digunakan pada background
+background-position = mengatur posisi gambar pada background
+background-repeat = mengatur jenis pengulangan gambar pada backgorund
+
+background-image (url(link))
+background-repeat (repeat-x, repeat-y, no-repeat)
+
+background: color url() position repeat;
+
+SELECTOR
+1. elemen HTML
+2. id id="p1" #p1 
+3. class (recommended) class="p2 cetak-tebal" .p2 .cetak-tebal p,cetak-tebal
+
+PSEUDO-CLASS
+:link = style default pada sebuah link (a yang memiliki href)
+:hover = style ketika kursor mouse berada di atas sebuah link/elemen
+:active = style ketika sebuah link di-klik (keadaan aktif)
+:visited = style ketika sebuah link sudah pernah dikunjungi (menggunakan browser yg sama)
+
+:first-child = memilih elemen pertama dari sebuah parent (elemen pembungkus)
+:last-child = terakhir
+:nth-child(n) = elemen ke-n (1,2 2n+1, odd/even)
+
+:first-of-type
+:last-of-type
+
+INHERIT
+a { color:inherite;}
+
+http://specificity.keegan.st

@@ -1,0 +1,64 @@
+<div> dan <span> = hanya untuk pengelompokkan
+<div> = block
+<span> = inline 
+inline tidak bisa diatur panjang dan lebar
+elemen inline = b, strong, i, em, a, span, sub, sup, button, input, label, select, textarea
+elemen block = h1-h6, p, ol, ul, li, form, hr, div
+
+display: inline;
+display: block;
+display: inline-block; = mengubah inline menjadi block
+display: none; = agar tidak ditampilkan
+
+width dan height (px, %, in, cm, mm, pt, pc)
+
+OVERFLOW
+overflow: visible;
+overflow: auto; = otomatis menjadi scroll jika kurang
+overflow: hidden; = tulisan akan disembunyikan jika kurang
+overflow: scroll; = dibuat scroll kurang maupun lebih
+
+CSS Box
+1. Margin = area transparan di sekitar kotak
+2. Border = batas di sekeliling content dan padding
+3. Padding = area transparan di dalam kotak
+4. Content = konten sebenarnya di dalam box, bisa berupa teks atau gambar
+
+margin-top
+margin-right
+margin-bottom
+margin-left
+margin
+padding-top
+padding-right
+padding-bottom
+padding-left
+padding
+border-top
+border-right
+border-bottom
+border-left
+border
+
+Margin
+1. overlapping margin = berlaku dalam vertikal
+2. negatif margin = akan terbawa ke atas elemen di bawahnya
+3. auto = khusus pada margin kiri kanan, akan dibuat di tengah tengah browser
+4. shorthand = margin: atas kanan kiri bawah;
+
+Padding
+padding: atas kanan kiri bawah;
+jika memakai padding maka ukuran box akan bertambah
+
+Border
+Border: width style color;
+style (solid, doted, dashed, double)
+border juga memberikan nilai tambah nilai box
+
+Total Dimensi = width/height + padding + border
+box-sizing: border-box; = untuk mengatur nilai box secara otomatis
+
+CSS Reset body {margin: 0;}
+https://meyerweb.com/eric/tools/css/reset/
+
+https://www.w3schools.com/colors/colors_names.asp
