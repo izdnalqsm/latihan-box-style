@@ -62,3 +62,8 @@ CSS Reset body {margin: 0;}
 https://meyerweb.com/eric/tools/css/reset/
 
 https://www.w3schools.com/colors/colors_names.asp
+
+FLOAT
+float: none;
+float: left;
+float: right;
