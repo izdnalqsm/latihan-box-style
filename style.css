@@ -51,8 +51,19 @@ body{
 }
 .container{
     width: 960px;
-    margin: auto;
+    margin: 80px auto;
     background-color: #fff;
+}
+.twitter {
+    width: 128px;
+    height: 128px;
+    background-image: url(img/ribbon.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-indent: -99999px;
+    position: absolute;
+    top: 65px;
+    right: 175px;
 }
 .header{
     padding: 20px;
